@@ -40,11 +40,15 @@
                                                                              message:nil
                                                                       preferredStyle:UIAlertControllerStyleActionSheet];
     
-    [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"Sign out" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil];
+    UIAlertAction *signoutAction = [UIAlertAction actionWithTitle:@"Sign out" style:UIAlertActionStyleDestructive
+                                                          handler:^(UIAlertAction * _Nonnull action) {
         [self.oneDriveManager signOut];
         [self.navigationController popViewControllerAnimated:YES];
-    }]];
+    }];
+    
+    [alertController addAction:cancelAction];
+    [alertController addAction:signoutAction];
     
     [self presentViewController:alertController animated:YES completion:nil];
 }
