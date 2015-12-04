@@ -1,7 +1,5 @@
 # Office 365 iOS CloudRoll
 
-
-
 ## Introduction
 
 CloudRoll is a sample iOS app that demonstrates how to take a picture with your phone and send it to OneDrive without storing the image locally on the phone. This can be valuable if you're concerned about storage space, or, if you lose your phone, making sure confidential pictures are not lost with it.
