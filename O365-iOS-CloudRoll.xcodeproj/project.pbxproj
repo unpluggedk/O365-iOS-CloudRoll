@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		96011B791BBC833A0002C748 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96011B781BBC833A0002C748 /* AVFoundation.framework */; };
+		962C865B1C31E3930032543E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962C865A1C31E3930032543E /* LaunchScreen.xib */; };
 		9664A1B61BC4A5DF00CECB22 /* cloudRollLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9664A1B51BC4A5DF00CECB22 /* cloudRollLogo.png */; };
 		9667DB821BBC5C6C006A2F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB811BBC5C6C006A2F83 /* main.m */; };
 		9667DB851BBC5C6C006A2F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB841BBC5C6C006A2F83 /* AppDelegate.m */; };
 		9667DB8B1BBC5C6C006A2F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9667DB891BBC5C6C006A2F83 /* Main.storyboard */; };
 		9667DB8D1BBC5C6C006A2F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9667DB8C1BBC5C6C006A2F83 /* Assets.xcassets */; };
-		9667DB901BBC5C6C006A2F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9667DB8E1BBC5C6C006A2F83 /* LaunchScreen.storyboard */; };
 		9667DB9B1BBC5C6C006A2F83 /* O365_iOS_CloudRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB9A1BBC5C6C006A2F83 /* O365_iOS_CloudRollTests.m */; };
 		9667DBA61BBC5C6C006A2F83 /* O365_iOS_CloudRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DBA51BBC5C6C006A2F83 /* O365_iOS_CloudRollUITests.m */; };
 		966E33A81BBC97B8002D1DCA /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33A71BBC97B8002D1DCA /* SettingsManager.m */; };
@@ -44,6 +44,7 @@
 		178752ED577FFA24F38B8B26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		688006A5C71FA0491675A365 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		96011B781BBC833A0002C748 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		962C865A1C31E3930032543E /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		9664A1B51BC4A5DF00CECB22 /* cloudRollLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudRollLogo.png; sourceTree = "<group>"; };
 		9667DB7D1BBC5C6C006A2F83 /* O365-iOS-CloudRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O365-iOS-CloudRoll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9667DB811BBC5C6C006A2F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		9667DB841BBC5C6C006A2F83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9667DB8A1BBC5C6C006A2F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9667DB8C1BBC5C6C006A2F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9667DB8F1BBC5C6C006A2F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9667DB911BBC5C6C006A2F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9667DB961BBC5C6C006A2F83 /* O365-iOS-CloudRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "O365-iOS-CloudRollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9667DB9A1BBC5C6C006A2F83 /* O365_iOS_CloudRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = O365_iOS_CloudRollTests.m; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 				966E33A41BBC971C002D1DCA /* Models */,
 				9667DB831BBC5C6C006A2F83 /* AppDelegate.h */,
 				9667DB841BBC5C6C006A2F83 /* AppDelegate.m */,
+				962C865A1C31E3930032543E /* LaunchScreen.xib */,
 				9667DB891BBC5C6C006A2F83 /* Main.storyboard */,
 				9667DB8C1BBC5C6C006A2F83 /* Assets.xcassets */,
-				9667DB8E1BBC5C6C006A2F83 /* LaunchScreen.storyboard */,
 				9667DB911BBC5C6C006A2F83 /* Info.plist */,
 				9667DB801BBC5C6C006A2F83 /* Supporting Files */,
 			);
@@ -314,7 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9667DB901BBC5C6C006A2F83 /* LaunchScreen.storyboard in Resources */,
+				962C865B1C31E3930032543E /* LaunchScreen.xib in Resources */,
 				9667DB8D1BBC5C6C006A2F83 /* Assets.xcassets in Resources */,
 				9667DB8B1BBC5C6C006A2F83 /* Main.storyboard in Resources */,
 				9664A1B61BC4A5DF00CECB22 /* cloudRollLogo.png in Resources */,
@@ -437,14 +437,6 @@
 				9667DB8A1BBC5C6C006A2F83 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9667DB8E1BBC5C6C006A2F83 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9667DB8F1BBC5C6C006A2F83 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
