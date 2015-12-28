@@ -42,7 +42,7 @@
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil];
     UIAlertAction *signoutAction = [UIAlertAction actionWithTitle:@"Sign out" style:UIAlertActionStyleDestructive
-                                                          handler:^(UIAlertAction * _Nonnull action) {
+                                                          handler:^(UIAlertAction *action) {
         [self.oneDriveManager signOut];
         [self.navigationController popViewControllerAnimated:YES];
     }];
