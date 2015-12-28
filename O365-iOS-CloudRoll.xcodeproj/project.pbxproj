@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96011B791BBC833A0002C748 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96011B781BBC833A0002C748 /* AVFoundation.framework */; };
-		9664A1B61BC4A5DF00CECB22 /* cloudRollLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9664A1B51BC4A5DF00CECB22 /* cloudRollLogo.png */; settings = {ASSET_TAGS = (); }; };
+		9664A1B61BC4A5DF00CECB22 /* cloudRollLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9664A1B51BC4A5DF00CECB22 /* cloudRollLogo.png */; };
 		9667DB821BBC5C6C006A2F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB811BBC5C6C006A2F83 /* main.m */; };
 		9667DB851BBC5C6C006A2F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB841BBC5C6C006A2F83 /* AppDelegate.m */; };
 		9667DB8B1BBC5C6C006A2F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9667DB891BBC5C6C006A2F83 /* Main.storyboard */; };
@@ -16,10 +16,10 @@
 		9667DB901BBC5C6C006A2F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9667DB8E1BBC5C6C006A2F83 /* LaunchScreen.storyboard */; };
 		9667DB9B1BBC5C6C006A2F83 /* O365_iOS_CloudRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DB9A1BBC5C6C006A2F83 /* O365_iOS_CloudRollTests.m */; };
 		9667DBA61BBC5C6C006A2F83 /* O365_iOS_CloudRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667DBA51BBC5C6C006A2F83 /* O365_iOS_CloudRollUITests.m */; };
-		966E33A81BBC97B8002D1DCA /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33A71BBC97B8002D1DCA /* SettingsManager.m */; settings = {ASSET_TAGS = (); }; };
-		966E33AE1BBC97F0002D1DCA /* OneDriveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33AD1BBC97F0002D1DCA /* OneDriveManager.m */; settings = {ASSET_TAGS = (); }; };
-		966E33B11BBC9807002D1DCA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33B01BBC9807002D1DCA /* CameraViewController.m */; settings = {ASSET_TAGS = (); }; };
-		966E33B41BBC981A002D1DCA /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33B31BBC981A002D1DCA /* SettingsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		966E33A81BBC97B8002D1DCA /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33A71BBC97B8002D1DCA /* SettingsManager.m */; };
+		966E33AE1BBC97F0002D1DCA /* OneDriveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33AD1BBC97F0002D1DCA /* OneDriveManager.m */; };
+		966E33B11BBC9807002D1DCA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33B01BBC9807002D1DCA /* CameraViewController.m */; };
+		966E33B41BBC981A002D1DCA /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966E33B31BBC981A002D1DCA /* SettingsTableViewController.m */; };
 		CA8D501BA8BEAF80463CE741 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178752ED577FFA24F38B8B26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
